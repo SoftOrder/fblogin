@@ -12,4 +12,4 @@ echo $loginUrl;
 ?>
 <!doctype html land="en">
 
-<input type="button" onclick="window.location = '<?php echo $loginUrl; ?>'" value='Login With Facebooj'>
+<button onclick="window.location = '<?php echo $loginUrl; ?>'">Login With Facebook</button>
